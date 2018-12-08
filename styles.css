@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main-box {
+  width: 50%;
+}
+
+
+.header {
+  background-color: #d7e0ef;
+  width: 100%;
+  padding: 5%,5%,5%,5%;
+  border-radius: 5px;
+  margin-bottom: 1%;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+width: 100%;
+margin-left: 3%;
+display: flex;
+justify-content: space-between;
+}
+
+h1 {
+  font-size: 22px;
+  font-family: 'Quicksand', sans-serif;
+  color: #3d4e77;
+  font-weight: lighter;
+  margin: 10%,0,10%,10%;
+}
+
+.input-text {
+  background-color: #3d4e77;
+  border-radius: 5px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.data {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#box {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #d7e0ef;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0,10%,0,10%
+}
+
+p {
+margin-left: 3%;
+font-family: 'Quicksand', sans-serif;
+font-weight: bold;
+color: #3d4e77;
+}
+
+input {
+  width: 400px;
+  height: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: #3d4e77;
+}
+
+#button {
+  background-color: #edf0f7;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  font-size: 13px;
+  color: #3d4e77;
+  width: 80px;
+  height: 20px;
+}
+
+button {
+  background-color: #edf0f7;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #3d4e77;
+}
+
+#tinyBox {
+  margin-right: 3%;
+
+}
+
+@media (max-width: 1050px) {
+  .main-box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  input {
+    width: 200px;
+    height: 20px;
+  }
+}
+
